@@ -4,5 +4,6 @@ public class Book extends TangbleAsset{
 		super(name,price,color);
 		this.isbn = isbn;
 	}
+	public void setIsbn(String isbn){this.isbn = isbn;}
 	public String getIsbn(){return this.isbn;}
 }
